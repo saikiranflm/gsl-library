@@ -13,21 +13,21 @@ pipeline {
                 sh "mvn clean install"
             }
         }
-        stage("sonar"){
-            steps{
+        // stage("sonar"){
+        //     steps{
 
-            }
-        }
-        stage("artifact"){
-            steps{
+        //     }
+        // }
+        // stage("artifact"){
+        //     steps{
 
-            }
-        }
-        stage("deploy"){
-            steps{
+        //     }
+        // }
+        // stage("deploy"){
+        //     steps{
 
-            }
-        }
+        //     }
+        // }
     }
 }
 }
