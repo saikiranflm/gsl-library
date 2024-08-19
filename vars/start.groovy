@@ -1,3 +1,5 @@
+#!/usr/bin/groovy
+def call(){
 pipeline {
     agent any
     stages{
@@ -27,5 +29,6 @@ pipeline {
             }
         }
     }
+}
 }
   
