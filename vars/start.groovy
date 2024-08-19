@@ -4,7 +4,7 @@ def call(){
     stages {
         stage('Example') {
             steps {
-                echo 'My first code'
+                echo 'My first'
             }
         }
     }
